@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6sh-rk-O5E">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Smoking counter-->
+        <scene sceneID="FYa-xh-Ij5">
+            <objects>
+                <viewController id="6sh-rk-O5E" customClass="MainView" customModule="Smoking_expenses___Money_Saver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lvI-5W-Hv2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Example 10" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lz6-de-OfI">
+                                <rect key="frame" x="44" y="223" width="287" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="EYO-1l-zNC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="20?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="581-Kk-N5B">
+                                <rect key="frame" x="44" y="301.5" width="287" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="11C-hu-vcQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cigarettes per day" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9e8-fl-ku6">
+                                <rect key="frame" x="44" y="199.5" width="287" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cigarettes in a pack" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVY-K0-gMu">
+                                <rect key="frame" x="44" y="278" width="287" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smoking cessation date" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTf-cC-gAO">
+                                <rect key="frame" x="44" y="122" width="202.5" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Example 10.07.2019" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bX6-ag-hgE">
+                                <rect key="frame" x="44" y="144.5" width="287" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="4jF-AZ-NTt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tf1Action:" destination="6sh-rk-O5E" eventType="editingDidEnd" id="A4T-fh-gED"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v5j-cI-xG1">
+                                <rect key="frame" x="44" y="380" width="287" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="RZw-gk-Ey8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price per pack" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mz0-ON-R2e">
+                                <rect key="frame" x="44" y="356.5" width="287" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gX3-xf-8jN">
+                                <rect key="frame" x="44" y="576" width="287" height="45"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="4ZC-8V-c2C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="20"/>
+                                <color key="tintColor" red="0.24085559649999999" green="0.87418846319999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcButtonAction:" destination="6sh-rk-O5E" eventType="touchUpInside" id="28K-PD-tx3"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Et6-SX-C8t">
+                                <rect key="frame" x="44" y="25" width="315" height="46.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smoking expenses" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qB-cJ-6uu">
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="Rn6-Sb-t8e"/>
+                                            <constraint firstAttribute="width" constant="315" id="o5i-Gn-Boc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check your money." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36u-wb-NUj">
+                                        <rect key="frame" x="0.0" y="34" width="122.5" height="12.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="122.5" id="S01-fp-fFh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="12"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.89984533629441621" green="0.82884905483321247" blue="0.021059566812236832" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="fQJ-Al-Js7" firstAttribute="trailing" secondItem="9e8-fl-ku6" secondAttribute="trailing" constant="44" id="0AK-so-PyU"/>
+                            <constraint firstItem="fQJ-Al-Js7" firstAttribute="trailing" secondItem="581-Kk-N5B" secondAttribute="trailing" constant="44" id="66H-zi-lXU"/>
+                            <constraint firstItem="Et6-SX-C8t" firstAttribute="leading" secondItem="fQJ-Al-Js7" secondAttribute="leading" constant="44" id="Ait-4B-w7f"/>
+                            <constraint firstItem="fQJ-Al-Js7" firstAttribute="trailing" secondItem="bX6-ag-hgE" secondAttribute="trailing" constant="44" id="DRs-iV-XsT"/>
+                            <constraint firstItem="581-Kk-N5B" firstAttribute="top" secondItem="gVY-K0-gMu" secondAttribute="bottom" constant="6" id="Dm8-Ed-QgC"/>
+                            <constraint firstItem="gVY-K0-gMu" firstAttribute="top" secondItem="lz6-de-OfI" secondAttribute="bottom" constant="15" id="Dvr-wJ-IX2"/>
+                            <constraint firstItem="gVY-K0-gMu" firstAttribute="leading" secondItem="fQJ-Al-Js7" secondAttribute="leading" constant="44" id="Gbn-j0-mSe"/>
+                            <constraint firstItem="bX6-ag-hgE" firstAttribute="top" secondItem="DTf-cC-gAO" secondAttribute="bottom" constant="5" id="Gs4-2w-6Sa"/>
+                            <constraint firstItem="v5j-cI-xG1" firstAttribute="leading" secondItem="fQJ-Al-Js7" secondAttribute="leading" constant="44" id="HRf-7u-iNM"/>
+                            <constraint firstItem="DTf-cC-gAO" firstAttribute="top" secondItem="fQJ-Al-Js7" secondAttribute="top" constant="122" id="Hnb-FY-EJA"/>
+                            <constraint firstItem="mz0-ON-R2e" firstAttribute="top" secondItem="581-Kk-N5B" secondAttribute="bottom" constant="15" id="IOB-p5-bDo"/>
+                            <constraint firstItem="bX6-ag-hgE" firstAttribute="leading" secondItem="fQJ-Al-Js7" secondAttribute="leading" constant="44" id="M57-M9-tdJ"/>
+                            <constraint firstItem="fQJ-Al-Js7" firstAttribute="trailing" secondItem="v5j-cI-xG1" secondAttribute="trailing" constant="44" id="O2D-RF-WFk"/>
+                            <constraint firstItem="Et6-SX-C8t" firstAttribute="top" secondItem="fQJ-Al-Js7" secondAttribute="top" constant="25" id="QQR-Bg-JH7"/>
+                            <constraint firstItem="581-Kk-N5B" firstAttribute="leading" secondItem="fQJ-Al-Js7" secondAttribute="leading" constant="44" id="UWI-oA-Sah"/>
+                            <constraint firstItem="gX3-xf-8jN" firstAttribute="leading" secondItem="fQJ-Al-Js7" secondAttribute="leading" constant="44" id="Ud4-WO-MBZ"/>
+                            <constraint firstItem="mz0-ON-R2e" firstAttribute="leading" secondItem="fQJ-Al-Js7" secondAttribute="leading" constant="44" id="UwE-HJ-yi1"/>
+                            <constraint firstItem="lz6-de-OfI" firstAttribute="top" secondItem="9e8-fl-ku6" secondAttribute="bottom" constant="6" id="Yn1-y0-Bkj"/>
+                            <constraint firstItem="fQJ-Al-Js7" firstAttribute="trailing" secondItem="lz6-de-OfI" secondAttribute="trailing" constant="44" id="ZkU-zr-hJr"/>
+                            <constraint firstItem="lz6-de-OfI" firstAttribute="leading" secondItem="fQJ-Al-Js7" secondAttribute="leading" constant="44" id="cOL-64-gBR"/>
+                            <constraint firstItem="fQJ-Al-Js7" firstAttribute="bottom" secondItem="gX3-xf-8jN" secondAttribute="bottom" constant="46" id="cZu-ch-xD6"/>
+                            <constraint firstItem="9e8-fl-ku6" firstAttribute="leading" secondItem="fQJ-Al-Js7" secondAttribute="leading" constant="44" id="dll-LY-Juz"/>
+                            <constraint firstItem="fQJ-Al-Js7" firstAttribute="trailing" secondItem="gX3-xf-8jN" secondAttribute="trailing" constant="44" id="f4z-dZ-YRF"/>
+                            <constraint firstItem="fQJ-Al-Js7" firstAttribute="trailing" secondItem="gVY-K0-gMu" secondAttribute="trailing" constant="44" id="hyW-PX-npr"/>
+                            <constraint firstItem="DTf-cC-gAO" firstAttribute="leading" secondItem="fQJ-Al-Js7" secondAttribute="leading" constant="44" id="ioV-xE-fMl"/>
+                            <constraint firstItem="v5j-cI-xG1" firstAttribute="top" secondItem="mz0-ON-R2e" secondAttribute="bottom" constant="6" id="lI5-Nj-7YM"/>
+                            <constraint firstItem="fQJ-Al-Js7" firstAttribute="trailing" secondItem="mz0-ON-R2e" secondAttribute="trailing" constant="44" id="nGQ-rt-CZV"/>
+                            <constraint firstItem="9e8-fl-ku6" firstAttribute="top" secondItem="bX6-ag-hgE" secondAttribute="bottom" constant="15" id="yrh-Px-Yrh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fQJ-Al-Js7"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Smoking counter" largeTitleDisplayMode="always" id="4Qw-eJ-cnl"/>
+                    <connections>
+                        <outlet property="calcButton" destination="gX3-xf-8jN" id="qZe-lv-aJn"/>
+                        <outlet property="tf1" destination="bX6-ag-hgE" id="MK2-s2-eOd"/>
+                        <outlet property="tf2" destination="lz6-de-OfI" id="AeL-W0-Abf"/>
+                        <outlet property="tf3" destination="581-Kk-N5B" id="SGn-lS-z1b"/>
+                        <outlet property="tf4" destination="v5j-cI-xG1" id="Zx3-W3-zba"/>
+                        <segue destination="fNl-TV-FHJ" kind="show" identifier="next" id="cND-jN-YzD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S8r-hq-9iB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2151.1999999999998" y="75.112443778110944"/>
+        </scene>
+        <!--ResultVC-->
+        <scene sceneID="h7r-po-Ql6">
+            <objects>
+                <viewController id="fNl-TV-FHJ" customClass="ResultVC" customModule="Smoking_expenses___Money_Saver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tIH-z6-37m">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ASn-OS-liz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqF-NR-nbc">
+                                        <rect key="frame" x="311" y="50" width="48" height="33"/>
+                                        <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" red="0.21749662289999999" green="0.71163140660000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="editButtonAction:" destination="fNl-TV-FHJ" eventType="touchUpInside" id="jug-fF-hIa"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You don't smoke already" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAh-2b-uaO">
+                                        <rect key="frame" x="82" y="123" width="211.5" height="17.5"/>
+                                        <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="YcV-pG-xpD">
+                                        <rect key="frame" x="136.5" y="148.5" width="102.5" height="30.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cv-NO-OEJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="30.5"/>
+                                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="30"/>
+                                                <color key="textColor" red="0.21749662289999999" green="0.71163140660000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="days" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbn-vY-KZ3">
+                                                <rect key="frame" x="61" y="0.0" width="41.5" height="30.5"/>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="18"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="During this time, your lungs didn't hit by" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2B-up-q78">
+                                        <rect key="frame" x="27.5" y="211" width="320" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="dYo-H3-L7h">
+                                        <rect key="frame" x="99.5" y="234.5" width="176" height="30.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3400" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0G7-wo-ivE">
+                                                <rect key="frame" x="0.0" y="0.0" width="73.5" height="30.5"/>
+                                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="30"/>
+                                                <color key="textColor" red="0.21749662289999999" green="0.71163140660000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cigarettes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJS-tb-C1U">
+                                                <rect key="frame" x="79.5" y="0.0" width="96.5" height="30.5"/>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="18"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You save" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSN-6p-97W">
+                                        <rect key="frame" x="159.5" y="297" width="56.5" height="18"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="15"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="52X-zH-gY7">
+                                        <rect key="frame" x="136.5" y="323" width="102.5" height="28.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13840" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekG-Gm-qz2">
+                                                <rect key="frame" x="0.0" y="0.0" width="86" height="28.5"/>
+                                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="28"/>
+                                                <color key="textColor" red="0.21749662289999999" green="0.71163140660000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wm4-nD-e4d">
+                                                <rect key="frame" x="92" y="0.0" width="10.5" height="28.5"/>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="курение-запрещено" translatesAutoresizingMaskIntoConstraints="NO" id="f6T-lL-3eo">
+                                        <rect key="frame" x="137.5" y="391.5" width="100" height="100"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93777760148934008" green="0.8384660171875542" blue="0.020932835404210752" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="iAh-2b-uaO" firstAttribute="top" secondItem="qqF-NR-nbc" secondAttribute="bottom" constant="40" id="2On-Wh-O2m"/>
+                                    <constraint firstItem="B2B-up-q78" firstAttribute="centerX" secondItem="iAh-2b-uaO" secondAttribute="centerX" id="5IH-mw-ktD"/>
+                                    <constraint firstItem="qqF-NR-nbc" firstAttribute="top" secondItem="ASn-OS-liz" secondAttribute="top" constant="50" id="6D9-lC-cmg"/>
+                                    <constraint firstAttribute="trailing" secondItem="qqF-NR-nbc" secondAttribute="trailing" constant="16" id="AD8-83-QB0"/>
+                                    <constraint firstItem="YcV-pG-xpD" firstAttribute="centerX" secondItem="iAh-2b-uaO" secondAttribute="centerX" id="Ebd-Sd-jAQ"/>
+                                    <constraint firstItem="f6T-lL-3eo" firstAttribute="centerX" secondItem="ASn-OS-liz" secondAttribute="centerX" id="TM6-Y1-cz9"/>
+                                    <constraint firstItem="dYo-H3-L7h" firstAttribute="centerX" secondItem="B2B-up-q78" secondAttribute="centerX" id="V0i-tU-Eau"/>
+                                    <constraint firstItem="dYo-H3-L7h" firstAttribute="top" secondItem="B2B-up-q78" secondAttribute="bottom" constant="8" id="Vji-am-bfl"/>
+                                    <constraint firstItem="f6T-lL-3eo" firstAttribute="top" secondItem="52X-zH-gY7" secondAttribute="bottom" constant="40" id="Xh2-4z-xkS"/>
+                                    <constraint firstItem="52X-zH-gY7" firstAttribute="top" secondItem="jSN-6p-97W" secondAttribute="bottom" constant="8" id="YPC-bG-8FK"/>
+                                    <constraint firstItem="B2B-up-q78" firstAttribute="top" secondItem="YcV-pG-xpD" secondAttribute="bottom" constant="32" id="acY-qj-6ii"/>
+                                    <constraint firstItem="iAh-2b-uaO" firstAttribute="centerX" secondItem="ASn-OS-liz" secondAttribute="centerX" id="cI1-lD-PLo"/>
+                                    <constraint firstItem="jSN-6p-97W" firstAttribute="top" secondItem="dYo-H3-L7h" secondAttribute="bottom" constant="32" id="dBG-5o-Gia"/>
+                                    <constraint firstItem="52X-zH-gY7" firstAttribute="centerX" secondItem="jSN-6p-97W" secondAttribute="centerX" id="dj9-hE-1AF"/>
+                                    <constraint firstItem="jSN-6p-97W" firstAttribute="centerX" secondItem="B2B-up-q78" secondAttribute="centerX" id="kfq-Z9-Tgu"/>
+                                    <constraint firstItem="YcV-pG-xpD" firstAttribute="top" secondItem="iAh-2b-uaO" secondAttribute="bottom" constant="8" id="mhT-ng-k2g"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.78327040240000001" green="0.78842798219999999" blue="0.0060859882079999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="ASn-OS-liz" firstAttribute="trailing" secondItem="WRe-Va-bz8" secondAttribute="trailing" id="28g-Lw-Wp0"/>
+                            <constraint firstItem="ASn-OS-liz" firstAttribute="top" secondItem="tIH-z6-37m" secondAttribute="top" id="dJJ-py-z41"/>
+                            <constraint firstItem="ASn-OS-liz" firstAttribute="leading" secondItem="WRe-Va-bz8" secondAttribute="leading" id="glr-P8-zP9"/>
+                            <constraint firstAttribute="bottom" secondItem="ASn-OS-liz" secondAttribute="bottom" id="wRY-FM-u3M"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WRe-Va-bz8"/>
+                    </view>
+                    <connections>
+                        <outlet property="statDays" destination="4cv-NO-OEJ" id="r3b-CN-1S3"/>
+                        <outlet property="statRubs" destination="ekG-Gm-qz2" id="ciE-44-Wp2"/>
+                        <outlet property="statSigs" destination="0G7-wo-ivE" id="OiW-JQ-zwa"/>
+                        <outlet property="statisticView" destination="ASn-OS-liz" id="LhL-jk-coy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ywa-g5-CWt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2908" y="73.313343328335833"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="курение-запрещено" width="100" height="100"/>
+    </resources>
+</document>
